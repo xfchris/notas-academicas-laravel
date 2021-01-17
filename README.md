@@ -1,4 +1,4 @@
-# Notas academica
+# Notas académica
 
 ### Pre-requisitos 📋
 
@@ -13,7 +13,7 @@
 
 ### Instalación 🔧
 
-1. Clonar el repositorio en el directorio del servidor web
+1. Clonar o descargar y descomprimir el codigo
 
 2. Instalar paquetes de composer ejecutando `composer install`.
 
@@ -25,6 +25,8 @@
 
 6. Ejecutar pruebas `php artisan test`
 
-7. Acceder al sitio.
+7. Ejecutar `php artisan serve`
+
+8. Acceder al sitio por la url `http://127.0.0.1:8000`
 
 ------------------------
