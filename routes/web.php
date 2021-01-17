@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect(route('formulario'));
 });
+
+
+Route::get('/estudiante', [App\Http\Controllers\EstudianteController::class, 'index'])->name('formulario');
+Route::post('/estudiante', [App\Http\Controllers\EstudianteController::class, 'registrarEstudiante'])->name('registrarEstudiante');
+Route::get('/reportes', [App\Http\Controllers\EstudianteController::class, 'mostrarReporte'])->name('reportes');

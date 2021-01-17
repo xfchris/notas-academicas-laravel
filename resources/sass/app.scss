@@ -1,0 +1,55 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.css';
+
+
+.navbar-sombra{
+    box-shadow: 0px 3px 3px rgba(240, 103, 103, 0.522);
+}
+
+.formulario-e{
+    border: 1px solid #d0d4f9;
+    background: #050f8812;
+    border-radius: 3px;
+
+    >fieldset{
+        margin: 6px 13px 16px 13px;
+    }
+}
+
+#tablaReporte_filter{
+    display: none;
+}
+
+@media (max-width: 573px){
+    .scrollReporte{
+        overflow-x: scroll;
+        padding: 0;
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 1024px){
+    .scrollReporte{
+        overflow-x: scroll;
+        padding: 0;
+    }
+}
+.d-grid{
+    display: grid;
+}
+
+.d-none-ni, .fadeIn{
+    display: none;
+}
+
+.iconoFormulario{
+    margin: 5px 0;
+}
